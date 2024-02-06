@@ -82,8 +82,8 @@ driver.get('https://jypt.ahrcu.com/')
 sleep(10)
 
 # 登录系统
-driver.find_element(By.XPATH, "/html/body/div/div[1]/div/div[2]/div[2]/div/div/div[2]/form/div[1]/div/div/input").send_keys("83000299")
-driver.find_element(By.XPATH, "/html/body/div/div[1]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/div/div/input").send_keys("ahnj@2023")
+driver.find_element(By.XPATH, "/html/body/div/div[1]/div/div[2]/div[2]/div/div/div[2]/form/div[1]/div/div/input").send_keys("用户名")
+driver.find_element(By.XPATH, "/html/body/div/div[1]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/div/div/input").send_keys("密码")
 driver.find_element(By.XPATH, "//*[@id='app']/div[1]/div/div[2]/div[2]/div/div/div[2]/form/div[4]/div/button").click()
 # Continue with the rest of your script
 # 等待5秒防止网络慢
